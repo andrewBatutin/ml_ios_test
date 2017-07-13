@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A42FE7541F176AAD00B78D97 /* windows_xp_bliss-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42FE7531F176AAD00B78D97 /* windows_xp_bliss-wide.jpg */; };
+		A42FE7561F176B9200B78D97 /* egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42FE7551F176B9200B78D97 /* egg.jpg */; };
+		A43FAFC51F176C6000DFEE28 /* see.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A43FAFC41F176C6000DFEE28 /* see.jpg */; };
 		A4BC58771F16171400262E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BC58761F16171400262E31 /* AppDelegate.swift */; };
 		A4BC58791F16171400262E31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BC58781F16171400262E31 /* ViewController.swift */; };
 		A4BC587C1F16171400262E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BC587A1F16171400262E31 /* Main.storyboard */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A42FE7531F176AAD00B78D97 /* windows_xp_bliss-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "windows_xp_bliss-wide.jpg"; path = "../../../../Downloads/windows_xp_bliss-wide.jpg"; sourceTree = "<group>"; };
+		A42FE7551F176B9200B78D97 /* egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = egg.jpg; path = ../../../../Downloads/egg.jpg; sourceTree = "<group>"; };
+		A43FAFC41F176C6000DFEE28 /* see.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = see.jpg; path = ../../../../Downloads/see.jpg; sourceTree = "<group>"; };
 		A4BC58731F16171400262E31 /* ml_io_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ml_io_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BC58761F16171400262E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4BC58781F16171400262E31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +87,9 @@
 		A4BC58751F16171400262E31 /* ml_io_test */ = {
 			isa = PBXGroup;
 			children = (
+				A43FAFC41F176C6000DFEE28 /* see.jpg */,
+				A42FE7551F176B9200B78D97 /* egg.jpg */,
+				A42FE7531F176AAD00B78D97 /* windows_xp_bliss-wide.jpg */,
 				A4BC58981F16192000262E31 /* GoogLeNetPlaces.mlmodel */,
 				A4BC58761F16171400262E31 /* AppDelegate.swift */,
 				A4BC58781F16171400262E31 /* ViewController.swift */,
@@ -190,8 +199,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42FE7541F176AAD00B78D97 /* windows_xp_bliss-wide.jpg in Resources */,
 				A4BC58811F16171400262E31 /* LaunchScreen.storyboard in Resources */,
 				A4BC587E1F16171400262E31 /* Assets.xcassets in Resources */,
+				A43FAFC51F176C6000DFEE28 /* see.jpg in Resources */,
+				A42FE7561F176B9200B78D97 /* egg.jpg in Resources */,
 				A4BC587C1F16171400262E31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +448,7 @@
 				A4BC58921F16171400262E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4BC58931F16171400262E31 /* Build configuration list for PBXNativeTarget "ml_io_testTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +457,7 @@
 				A4BC58951F16171400262E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
