@@ -16,7 +16,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let img = UIImage(named:"see.jpg")!
-        detectScene(image: CIImage(image: img)!)
+       // detectScene(image: CIImage(image: img)!)
+        room()
+    }
+    
+    func room(){
+        let m = BostonPricer()
+        guard let modelOutput = try? m.prediction(crime: 0.04, rooms: 3) else {
+            fatalError("Something went wrong with generating the model output.")
+        }
+        print(modelOutput.price)
     }
 
     func detectScene(image: CIImage) {
