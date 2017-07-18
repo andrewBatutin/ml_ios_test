@@ -17,7 +17,19 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let img = UIImage(named:"see.jpg")!
        // detectScene(image: CIImage(image: img)!)
-        room()
+        //room()
+        flower()
+    }
+    
+    func flower() {
+        let f = classer()
+        
+         guard let modelOutput = try? f.prediction(a: 6.0, b: 2.2, c: 4.0, d: 1.0)else {
+            fatalError("Something went wrong with generating the model output.")
+        }
+        
+        print(modelOutput.classProbability)
+        print(modelOutput.score)
     }
     
     func room(){

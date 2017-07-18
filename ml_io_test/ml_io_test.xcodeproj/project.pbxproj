@@ -11,6 +11,7 @@
 		A42FE7561F176B9200B78D97 /* egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A42FE7551F176B9200B78D97 /* egg.jpg */; };
 		A43FAFC51F176C6000DFEE28 /* see.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A43FAFC41F176C6000DFEE28 /* see.jpg */; };
 		A46FE3D31F1CB764004F81E8 /* BostonPricer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A46FE3D21F1CB764004F81E8 /* BostonPricer.mlmodel */; };
+		A49D54D91F1DEF98006D50F5 /* classer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A49D54D81F1DEF98006D50F5 /* classer.mlmodel */; };
 		A4BC58771F16171400262E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BC58761F16171400262E31 /* AppDelegate.swift */; };
 		A4BC58791F16171400262E31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BC58781F16171400262E31 /* ViewController.swift */; };
 		A4BC587C1F16171400262E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BC587A1F16171400262E31 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		A42FE7551F176B9200B78D97 /* egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = egg.jpg; path = ../../../../Downloads/egg.jpg; sourceTree = "<group>"; };
 		A43FAFC41F176C6000DFEE28 /* see.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = see.jpg; path = ../../../../Downloads/see.jpg; sourceTree = "<group>"; };
 		A46FE3D21F1CB764004F81E8 /* BostonPricer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = BostonPricer.mlmodel; path = ../../../ml_test/BostonPricer.mlmodel; sourceTree = "<group>"; };
+		A49D54D81F1DEF98006D50F5 /* classer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = classer.mlmodel; path = ../../../ml_test/classer.mlmodel; sourceTree = "<group>"; };
 		A4BC58731F16171400262E31 /* ml_io_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ml_io_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BC58761F16171400262E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4BC58781F16171400262E31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		A4BC58751F16171400262E31 /* ml_io_test */ = {
 			isa = PBXGroup;
 			children = (
+				A49D54D81F1DEF98006D50F5 /* classer.mlmodel */,
 				A46FE3D21F1CB764004F81E8 /* BostonPricer.mlmodel */,
 				A43FAFC41F176C6000DFEE28 /* see.jpg */,
 				A42FE7551F176B9200B78D97 /* egg.jpg */,
@@ -229,6 +232,7 @@
 				A4BC58771F16171400262E31 /* AppDelegate.swift in Sources */,
 				A46FE3D31F1CB764004F81E8 /* BostonPricer.mlmodel in Sources */,
 				A4BC58991F16192000262E31 /* GoogLeNetPlaces.mlmodel in Sources */,
+				A49D54D91F1DEF98006D50F5 /* classer.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
